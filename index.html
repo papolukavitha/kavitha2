@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavitha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7894211ec5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo2.png.jpeg" class="logo" alt="Logo">
+                <ul id ="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Kavitha</span></h1>
+                <p class = "para">Web Developer</p>
+                
+            </div>
+            <div class = "social-icons">
+                <a href =""><i class="fa-brands fa-facebook"></i></a>
+                <a href =""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href =""><i class="fa-brands fa-instagram"></i></a>
+                <a href =""><i class="fa-brands fa-linkedin"></i></a>
+
+
+            </div>
+        </div>
+    </div>
+    <!-----------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user.png.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hi! I'm Kavitha, a passionate and driven honors student from Amrita Sai Institute of Science and Technology. I'm eager to secure an internship position as a front-end developer. Throughout my academic journey, I've actively contributed to three collaborative projects focused on sustainability and development. My experiences have honed my skills in social media management, content creation, and front-end development, making me a valuable addition to any team."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Structure the web page</li>
+                            <li><span>CSS</span><br>Style and layout web page</li>
+                            <li><span>JavaScript</span><br>Make pages interactive</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Company XYZ<br>Role: Front-end Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>SSC: Nagarjuna Public School<br>Grade: <span>9.7 GPA</span></li>
+                            <li><span>2018-2020</span><br>Intermediate: Sri Akshara Junior College<br>Marks: <span>893</span></li>
+                            <li><span>2021-2025</span><br>B.Tech: Amrita Sai Institute of Science and Technology<br>CGPA: <span>8.4</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-------------services-------->
+<div id="services">
+    <div class = "container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated 
+                    web developers translate the designs to code.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>AWS</h2>
+                <p>Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Data Analytics</h2>
+                <p>Data Analytics can be used by different entities, such as businesses, to optimize their performance and maximize their profits. .</p>
+                    <a href="#">Learn more</a>
+            </div>
+            
+
+        </div>
+
+    </div>
+</div>
+<!---------portfolio------>
+<div id="portfolio">
+    <div class = "container">
+        <h1 class ="sub-title">My work</h1>
+        <div class = "work-list">
+            <div class = "work">
+                <img src="img/html css.png.jpeg ">
+                <div class = "layer">
+                    <h3>HTML CSS</h3>
+                    <p>The app connects you to the talented
+                        pepole around the world.Download it from play store.
+                    </p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class = "work">
+                <img src="img/bootstrap.png.jpeg">
+                <div class = "layer">
+                    <h3>BOOTSTRAP</h3>
+                    <p>The app connects you to the talented
+                        pepole around the world.Download it from play store.
+                    </p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class = "work">
+                <img src="img/powerbi.jpeg">
+                <div class = "layer">
+                    <h3>DATA ANALYSIS</h3>
+                    <p>The app connects you to the talented
+                        pepole around the world.Download it from play store.
+                    </p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+        <a href="#" class = "btn">See More</a>
+    </div>
+</div>
+<!------------contact----->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class = "social-icons">
+                    <a href =""><i class="fa-brands fa-facebook"></i></a>
+                    <a href =""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href =""><i class="fa-brands fa-instagram"></i></a>
+                    <a href =""><i class="fa-brands fa-linkedin"></i></a>
+
+
+                </div>
+                <a href = ""  download class = "btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type ="submit"  class ="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright kavitha.Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+        event.currentTarget.classList.add("active-list");
+        document.getElementById(tabname).classList.add("active-tab");
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu (){
+            sidemenu.style.right = "0";
+        }
+        function closemenu (){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
